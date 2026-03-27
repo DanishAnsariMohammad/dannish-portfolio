@@ -194,11 +194,17 @@
 .stat-num {
   font-size: 1.8rem;
   font-weight: 800;
-  background: var(--gradient-1);
-  -webkit-background-clip: text;
-  -webkit-text-fill-color: transparent;
-  background-clip: text;
+  color: var(--primary-light);
   line-height: 1;
+}
+
+@supports (-webkit-background-clip: text) {
+  .stat-num {
+    background: var(--gradient-1);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    background-clip: text;
+  }
 }
 
 .stat-label {
