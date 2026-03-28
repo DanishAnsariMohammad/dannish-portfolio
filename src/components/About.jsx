@@ -15,7 +15,7 @@ export default function About() {
           {/* Left: Avatar + quick info */}
           <div className="about-left">
             <div className="avatar-wrapper">
-              <div className="avatar-ring" />
+              {/* <div className="avatar-ring" /> */}
               <div className="avatar-placeholder">
                 {!showFallbackAvatar ? (
                   <img

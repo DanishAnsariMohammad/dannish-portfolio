@@ -20,7 +20,7 @@ export default function Hero() {
           <span className="hero-greeting">👋 Hello, I&apos;m</span>
           <h1 className="hero-name">
             Mohammad Danish Ansari<br />
-            <span className="gradient-text">Danish Ansari</span>
+            {/* <span className="gradient-text">Danish Ansari</span> */}
           </h1>
           <div className="hero-title-wrapper">
             <span className="hero-role">React Native Developer</span>
@@ -45,17 +45,14 @@ export default function Hero() {
 
           <div className="hero-stats">
             <div className="stat">
-              <span className="stat-num">3+</span>
               <span className="stat-label">Years Exp.</span>
             </div>
             <div className="stat-divider" />
             <div className="stat">
-              <span className="stat-num">15+</span>
               <span className="stat-label">Apps Built</span>
             </div>
             <div className="stat-divider" />
             <div className="stat">
-              <span className="stat-num">10+</span>
               <span className="stat-label">Happy Clients</span>
             </div>
           </div>
