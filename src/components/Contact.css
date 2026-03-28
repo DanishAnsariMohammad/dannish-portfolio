@@ -168,8 +168,8 @@
 .form-group textarea {
   width: 100%;
   padding: 12px 16px;
-  background: rgba(255, 255, 255, 0.04);
-  border: 1.5px solid rgba(255, 255, 255, 0.1);
+  background: var(--dark-3);
+  border: 1.5px solid var(--card-border);
   border-radius: var(--border-radius-sm);
   font-size: 0.9rem;
   color: var(--text-primary);

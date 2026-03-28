@@ -23,8 +23,8 @@
 
 .summary-tile {
   padding: 20px 18px;
-  background: rgba(255, 255, 255, 0.04);
-  border: 1px solid rgba(255, 255, 255, 0.08);
+  background: var(--card-bg);
+  border: 1px solid var(--card-border);
   border-radius: 18px;
   backdrop-filter: blur(16px);
 }
@@ -64,8 +64,8 @@
 
 .filter-btn {
   padding: 10px 20px;
-  background: rgba(255, 255, 255, 0.03);
-  border: 1px solid rgba(255, 255, 255, 0.1);
+  background: var(--card-bg);
+  border: 1px solid var(--card-border);
   border-radius: 100px;
   font-size: 0.875rem;
   font-weight: 600;
@@ -93,8 +93,8 @@
 }
 
 .project-card {
-  background: linear-gradient(180deg, rgba(255, 255, 255, 0.05), rgba(255, 255, 255, 0.025));
-  border: 1px solid rgba(255, 255, 255, 0.08);
+  background: var(--card-bg);
+  border: 1px solid var(--card-border);
   border-radius: 24px;
   overflow: hidden;
   transition: var(--transition);
@@ -299,7 +299,7 @@
   border: 1px solid rgba(108, 99, 255, 0.18);
   font-size: 0.74rem;
   font-weight: 600;
-  color: #d8d2ff;
+  color: var(--primary-light);
 }
 
 .project-tags {
@@ -310,8 +310,8 @@
 
 .tech-tag {
   padding: 5px 12px;
-  background: rgba(255, 255, 255, 0.045);
-  border: 1px solid rgba(255, 255, 255, 0.08);
+  background: rgba(108, 99, 255, 0.08);
+  border: 1px solid rgba(108, 99, 255, 0.16);
   border-radius: 100px;
   font-size: 0.75rem;
   font-weight: 600;
@@ -343,8 +343,8 @@
 }
 
 .project-btn.outline {
-  background: rgba(255, 255, 255, 0.03);
-  border: 1px solid rgba(255, 255, 255, 0.12);
+  background: var(--card-bg);
+  border: 1px solid var(--card-border);
   color: var(--text-secondary);
 }
 
